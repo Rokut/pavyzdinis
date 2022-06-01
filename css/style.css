@@ -1,0 +1,655 @@
+body {
+    font-family: 'Titillium Web';
+}
+
+h2 {
+    margin: 110px 0 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+.line {
+    width: 85px;
+    height: 4px;
+    margin: 20px auto;
+}
+
+.subtitle {
+    font-size: 1.1em;
+    font-style: normal;
+}
+
+/*Header*/
+.header_background {
+    background: #87509C;
+    /*background-image: url("../images/background.jpg");*/
+}
+
+.header_backgrmenu {
+    margin-top: 3%;
+    background: #87509C;
+    /*background: transparent;*/
+    border: none;
+    box-shadow: none;
+}
+
+.header_menu {
+    margin-top: 10px;
+    margin-left: 33%;
+}
+
+.header_menu > li > a {
+    padding: 10px 15px;
+    color: #FFF !important;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.header_menu > li > a:hover {
+    background: #643A79 !important;
+    border-radius: 5px;
+    color: #FFF !important;
+}
+
+.header_h1 {
+    margin: 140px auto 0;
+    font-size: 2.6em;
+    color: #F7F3EA;
+}
+
+.header_btn {
+    margin: 50px 0 140px;
+    width: 250px;
+    height: 60px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    background: #EB7D4B;
+    color: #FFF;
+    box-shadow: 0 4px 0 #C86A40;
+}
+
+.header_btn:hover {
+    background: #d77144;
+    color: #6d0306;
+}
+
+/*Header end*/
+
+/*Services*/
+#services {
+    padding-bottom: 100px;
+    background: #17C2A4;
+}
+
+.services_h2 {
+    margin-top: 110px;
+    color: #FFF;
+}
+
+.service_line {
+    background: #15AA90;
+}
+
+.iconbox_title {
+    margin: 20px 0 10px;
+    color: #FFF;
+}
+
+.iconbox_desk {
+    margin: 0px 20px 15px;
+    color: #FFF;
+}
+
+.services_subtitle {
+    margin-bottom: 60px;
+    color: #FFF;
+}
+
+/*Services end*/
+
+/*Team*/
+#team {
+    padding-bottom: 80px;
+    background: #E7F1F8;
+}
+
+.team_h2 {
+    margin-top: 110px;
+    color: #3C4761;
+}
+
+.team_line {
+    background: #D3E2EC;
+}
+
+.team_subtitle {
+    margin-bottom: 60px;
+    color: #3C4761;
+}
+
+.team_title {
+    color: #3C4761;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.team_desk1 {
+    font-size: 1em;
+    color: #48C1E9;
+}
+
+.team_desk2 {
+    margin: 30px 38px 20px;
+    font-size: 1em;
+    color: #3C4761;
+    font-weight: lighter;
+}
+
+.team_social-links {
+    margin: 20px 0 30px;
+    padding-left: 0;
+}
+
+.team_social-links li {
+    display: inline;
+    padding: 13px 22px;
+    background: url("../images/social.png") 0 0 no-repeat;
+    cursor: pointer;
+}
+
+.team_social-links .fb {
+    background-position: -16px -24px;
+}
+
+.team_social-links .fb:hover {
+    background-position: -15px -68px;
+}
+
+.team_social-links .tw {
+    background-position: -62px -24px;
+}
+
+.team_social-links .tw:hover {
+    background-position: -62px -68px;
+}
+
+.team_social-links .in {
+    background-position: -103px -24px;
+}
+
+.team_social-links .in:hover {
+    background-position: -103px -68px;
+}
+
+.team_social-links .mail {
+    background-position: -147px -24px;
+}
+
+.team_social-links .mail:hover {
+    background-position: -147px -68px;
+}
+
+.team_social-kate {
+    margin: 20px 0 30px;
+    padding-left: 0;
+}
+
+.team_social-kate li {
+    display: inline;
+    padding: 13px 22px;
+    background: url("../images/social.png") 0 0 no-repeat;
+    cursor: pointer;
+}
+
+.team_social-kate .tw {
+    background-position: -62px -24px;
+}
+
+.team_social-kate .tw:hover {
+    background-position: -62px -68px;
+}
+
+.team_social-kate .in {
+    background-position: -103px -24px;
+}
+
+.team_social-kate .in:hover {
+    background-position: -103px -68px;
+}
+
+.team_social-kate .mail {
+    background-position: -147px -24px;
+}
+
+.team_social-kate .mail:hover {
+    background-position: -147px -68px;
+}
+
+.team_social-ashley {
+    margin: 20px 0 30px;
+    padding-left: 0;
+}
+
+.team_social-ashley li {
+    display: inline;
+    padding: 13px 22px;
+    background: url("../images/social.png") 0 0 no-repeat;
+    cursor: pointer;
+}
+
+.team_social-ashley .fb {
+    background-position: -16px -24px;
+}
+
+.team_social-ashley .fb:hover {
+    background-position: -15px -68px;
+}
+
+.team_social-ashley .tw {
+    background-position: -62px -24px;
+}
+
+.team_social-ashley .tw:hover {
+    background-position: -62px -68px;
+}
+
+.team_social-ashley .mail {
+    background-position: -147px -24px;
+}
+
+.team_social-ashley .mail:hover {
+    background-position: -147px -68px;
+}
+
+/*Team end*/
+
+/*Skills*/
+#skills {
+    padding-bottom: 120px;
+}
+
+.portfolio_h2 {
+    color: #3C4761;
+}
+
+.skills_subtitle {
+    margin-bottom: 20px;
+    color: #3C4761;
+    font-size: 1.1em;
+}
+
+.skills_line {
+    background: #E1E9EE;
+}
+
+.skills_text {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+/*Skills end*/
+
+/*Portfolio*/
+#portfolio {
+    background: #FFDD99;
+}
+
+.portfolio_h2 {
+    color: #393939;
+}
+
+.portfolio_line {
+    background: #E5C37F;
+}
+
+.portfolio_subtitle {
+    font-size: 1.1em;
+    color: #393939;
+}
+
+.portfolio_pills {
+    margin-top: 45px;
+}
+.portfolio_pills_ul{
+    margin-left: 35%;
+    margin-bottom: 60px;
+    border: none;
+}
+.portfolio_pills_ul li{
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.portfolio_pills > ul > li > a {
+    margin-right: 5px;
+    border: none!important;
+    border-radius: 5px;
+    min-width: 80px;
+    color: #393939;
+    font-size: 1.1em;
+    background: #EBC985;
+}
+
+.portfolio_pills > ul > li > a:hover {
+    background: #FFF;
+}
+
+
+.portfolio_computer-title {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+.portfolio_btn {
+    margin: 50px 0 140px;
+    width: 250px;
+    height: 60px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    background: #17C2A4;
+    color: #FFF;
+    box-shadow: 0 4px 0 #14A58C;
+}
+
+.portfolio_btn:hover {
+    background: #139c84;
+    color: #0a6564;
+}
+
+/*Portfolio end*/
+
+/*Reviews*/
+#reviews {
+    background: #D74680;
+}
+
+.reviews_h2 {
+    color: #FFF;
+}
+
+.reviews_line {
+    background: #B73C6D;
+}
+
+.reviews_block {
+    margin-bottom: 150px;
+}
+
+.reviews_subtitle {
+    margin-bottom: 65px;
+    font-size: 1.1em;
+    color: #FFF;
+}
+
+.reviews_desk1 {
+    color: #FFF;
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+.reviews_title {
+    color: #FFF;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.reviews_desk2 {
+    color: #FCD397;
+    font-size: 1.1em;
+    line-height: 0;
+}
+
+/*Reviews end*/
+
+/*Contacts*/
+#contacts {
+    padding-bottom: 90px;
+    background: #3C5499;
+}
+
+.contacts_h2 {
+    color: #FFF;
+}
+
+.contacts_line {
+    background: #273A71;
+}
+
+.contacts_subtitle {
+    margin: 10px 0 40px;
+    color: #FFF;
+    font-size: 1.1em;
+}
+
+.contacts_form {
+    background: #273A71;
+    border: none;
+}
+
+.contacts_message {
+    min-height: 160px;
+    background: #273A71;
+    border: none;
+}
+
+.contacts_form::-webkit-input-placeholder {
+    color:#FFF;
+}
+.contacts_form::-moz-placeholder {
+    color:#FFF;
+}/* Firefox 19+ */
+.contacts_form:-moz-placeholder {
+    color:#FFF;
+}/* Firefox 18- */
+.contacts_form:-ms-input-placeholder {
+    color:#FFF;
+}
+.contacts_message::-webkit-input-placeholder {
+    color:#FFF;
+}
+.contacts_message:-moz-placeholder {
+    color:#FFF;
+}/* Firefox 19+ */
+.contacts_message:-moz-placeholder {
+    color:#FFF;
+}/* Firefox 18- */
+.contacts_message:-ms-input-placeholder{
+    color:#FFF;
+}
+
+.contacts_btn {
+    margin-top: 50px;
+    width: 250px;
+    height: 60px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    background: #30BAE7;
+    color: #FFF;
+    box-shadow: 0 4px 0 #299EC5;
+}
+
+.contacts_btn:hover {
+    background: #299EC5;
+    color: #344B8E;
+}
+
+/*Contacts end*/
+
+/*Footer*/
+footer {
+    background: #344B8E;
+}
+
+.footer_social-link {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.footer_social-link li {
+    display: inline-block;
+    margin: 5px;
+    padding: 3% 4% 2% 0;
+    font-size: 1.5em;
+}
+
+.footer_social-link li a {
+    color: #C9CFE1;
+}
+
+.footer_social-link li a:hover {
+    color: #3199CC;
+    text-decoration: none;
+}
+
+.footer_text-center {
+    text-align: center;
+}
+
+/*Footer end*/
+
+/*media query*/
+
+@media only screen and (min-width: 319px) and (max-width: 543px) {
+    /*Header*/
+    .header_menu-btn {
+        margin-top: 15px;
+    }
+
+    /*Header end*/
+    .portfolio_pills_ul {
+        margin-left: 22%;
+    }
+
+    /*Reviews*/
+    .reviews_block {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .reviews_icon {
+        margin-bottom: 10px;
+    }
+
+    /*Reviews end*/
+}
+@media only screen and (min-width: 360px) and (max-width: 543px) {
+    .portfolio_pills_ul {
+        margin-left: 25%;
+    }
+
+}
+@media only screen and (min-width: 412px) and (max-width: 434px) {
+    .portfolio_pills_ul {
+        margin-left: 31%;
+    }
+
+}
+@media only screen and (min-width: 435px) and (max-width: 543px) {
+    .portfolio_pills_ul {
+        margin-left: 4%;
+    }
+
+}
+@media only screen and (min-width: 480px) and (max-width: 543px) {
+    .portfolio_pills_ul {
+        margin-left: 10%;
+    }
+
+}
+@media only screen and (min-width: 540px) and (max-width: 543px) {
+    .portfolio_pills_ul {
+        margin-left: 13%;
+    }
+
+}
+
+@media only screen and (min-width: 544px) and (max-width: 767px) {
+
+    /*Header*/
+    .header_menu-btn {
+        margin-top: 15px;
+    }
+
+    /*Header end*/
+
+    /*Reviews*/
+    .reviews_block {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    /*Reviews end*/
+}
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .portfolio_pills_ul {
+        margin-left: 18%;
+    }
+
+}
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+    .portfolio_pills_ul {
+        margin-left: 24%;
+    }
+
+}
+@media only screen and (min-width: 720px) and (max-width: 767px) {
+    .portfolio_pills_ul {
+        margin-left: 24%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /*Header*/
+    .header_menu {
+        margin-left: 27%;
+    }
+
+    /*Header end*/
+    .portfolio_pills_ul {
+        margin-left: 25%;
+    }
+}
+@media only screen and (min-width: 980px) and (max-width: 991px) {
+    .portfolio_pills_ul {
+        margin-left: 25%;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /*Header*/
+    .header_menu {
+        margin-left: 45%;
+    }
+
+    /*Header end*/
+    .portfolio_pills_ul {
+        margin-left: 31%;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    /*Header*/
+    .header_menu {
+        margin-left: 55%;
+    }
+
+    /*Header end*/
+    .portfolio_pills_ul {
+        margin-left: 35%;
+    }
+}
+
+/*media query*/
